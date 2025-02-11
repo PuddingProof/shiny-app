@@ -1,4 +1,4 @@
-{
+[
   "Red Wolf": {
     "RangedInTime": 0.2,
     "ZoomInHoldDelayTime": 0.4,
@@ -409,4 +409,4 @@
     "ZoomInHoldDelayTime": 0.385,
     "BaseReloadTime": 3.7
   }
-}
+]
