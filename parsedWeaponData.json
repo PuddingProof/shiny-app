@@ -1,0 +1,412 @@
+let sniperListData = {
+  "Red Wolf": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.0499999999999998
+  },
+  "Millennium Frost": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.26
+  },
+  "Hungry Hound": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.19
+  },
+  "Rose of Aisha": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 1.1199999999999999
+  },
+  "The Last Dagger": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 1.2
+  },
+  "The Final Masterpiece": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 1.1
+  },
+  "New Beginning": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 1.15
+  },
+  "Assassin's Edge": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.4
+  },
+  "Explorer's Path": {
+    "RangedInTime": 0.23,
+    "ZoomInHoldDelayTime": 0.43,
+    "BaseReloadTime": 1.4
+  },
+  "Burning Hound": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.75
+  },
+  "Nazeistra's Devotion": {
+    "RangedInTime": 0.22,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.5
+  },
+  "Perforator": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.6
+  },
+  "Immediate Execution": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.7
+  },
+  "Peace Maker": {
+    "RangedInTime": 0.23,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.35
+  },
+  "The Last Knight": {
+    "RangedInTime": 0.168,
+    "ZoomInHoldDelayTime": 0.368,
+    "BaseReloadTime": 1.89
+  },
+  "In a Blink": {
+    "RangedInTime": 0.16,
+    "ZoomInHoldDelayTime": 0.36,
+    "BaseReloadTime": 1.54
+  },
+  "Gangster": {
+    "RangedInTime": 0.16,
+    "ZoomInHoldDelayTime": 0.36,
+    "BaseReloadTime": 1.68
+  },
+  "Fireworks": {
+    "RangedInTime": 0.168,
+    "ZoomInHoldDelayTime": 0.368,
+    "BaseReloadTime": 1.6099999999999999
+  },
+  "Smithereens": {
+    "RangedInTime": 0.16,
+    "ZoomInHoldDelayTime": 0.368,
+    "BaseReloadTime": 1.6
+  },
+  "Executor": {
+    "RangedInTime": 0.168,
+    "ZoomInHoldDelayTime": 0.368,
+    "BaseReloadTime": 1.85
+  },
+  "Subconsciousness": {
+    "RangedInTime": 0.168,
+    "ZoomInHoldDelayTime": 0.368,
+    "BaseReloadTime": 1.45
+  },
+  "Hammer and Anvil": {
+    "RangedInTime": 0.168,
+    "ZoomInHoldDelayTime": 0.368,
+    "BaseReloadTime": 1.55
+  },
+  "Devil's Call": {
+    "RangedInTime": 0.148,
+    "ZoomInHoldDelayTime": 0.348,
+    "BaseReloadTime": 1.32
+  },
+  "Blue Blood Bloomer": {
+    "RangedInTime": 0.148,
+    "ZoomInHoldDelayTime": 0.348,
+    "BaseReloadTime": 1.32
+  },
+  "Albinism": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 1.46
+  },
+  "Alter Ego": {
+    "RangedInTime": 0.148,
+    "ZoomInHoldDelayTime": 0.348,
+    "BaseReloadTime": 1.74
+  },
+  "Thunder Cage": {
+    "RangedInTime": 0.148,
+    "ZoomInHoldDelayTime": 0.348,
+    "BaseReloadTime": 1.4
+  },
+  "Python": {
+    "RangedInTime": 0.148,
+    "ZoomInHoldDelayTime": 0.348,
+    "BaseReloadTime": 1.5
+  },
+  "Firefly": {
+    "RangedInTime": 0.148,
+    "ZoomInHoldDelayTime": 0.348,
+    "BaseReloadTime": 1.35
+  },
+  "Rascal V-51": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 2.4499999999999997
+  },
+  "Unfinished Study": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.5,
+    "BaseReloadTime": 3.01
+  },
+  "Cygnus": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 2.59
+  },
+  "Lion of Blue Mane": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 3.29
+  },
+  "Enduring Legacy": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 2.7
+  },
+  "Albion Cavalry Gun": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 2.5
+  },
+  "Tamer": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 2.6
+  },
+  "Magnus AA": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.68
+  },
+  "Caligo's Horn": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.68
+  },
+  "Ominous Hound": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.75
+  },
+  "Phantom Pain": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.6099999999999999
+  },
+  "Fallen Hope": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.7
+  },
+  "Divine Punishment": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 1.55
+  },
+  "Eternal Willpower": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.9
+  },
+  "EXCAVA": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 2
+  },
+  "Young Noble's Ambition": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.68
+  },
+  "The Unwelcomed": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.54
+  },
+  "Red Eye": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.89
+  },
+  "Viper": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.75
+  },
+  "Secret Garden": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.6
+  },
+  "Greg's Reversed Fate": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.4
+  },
+  "Detachment": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 1.55
+  },
+  "Hero's Scar": {
+    "RangedInTime": 0.17,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2.0999999999999996
+  },
+  "Silly Weeper": {
+    "RangedInTime": 0.17,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2.0999999999999996
+  },
+  "Nightmare Hound": {
+    "RangedInTime": 0.17,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2.2399999999999998
+  },
+  "The Age Of Innovation": {
+    "RangedInTime": 0.17,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2.0999999999999996
+  },
+  "Wave of Light": {
+    "RangedInTime": 0.28,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2.2
+  },
+  "Blue Beetle": {
+    "RangedInTime": 0.28,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2
+  },
+  "Sonic Co-op": {
+    "RangedInTime": 0.28,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2
+  },
+  "FrostWatcher": {
+    "RangedInTime": 0.35,
+    "ZoomInHoldDelayTime": 0.4,
+    "BaseReloadTime": 2.15
+  },
+  "Forest Gaze": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.35,
+    "BaseReloadTime": 2.52
+  },
+  "Supermoon Z-15": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.34,
+    "BaseReloadTime": 2.2399999999999998
+  },
+  "Recipient Unknown": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.33,
+    "BaseReloadTime": 2.0999999999999996
+  },
+  "Belief": {
+    "RangedInTime": 0.2,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2.3099999999999996
+  },
+  "Afterglow Sword": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.3,
+    "BaseReloadTime": 2.5
+  },
+  "Piercing Light": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 2.6
+  },
+  "Different Dream": {
+    "RangedInTime": 0.35,
+    "ZoomInHoldDelayTime": 0.48,
+    "BaseReloadTime": 2.15
+  },
+  "Death Roar": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.5,
+    "BaseReloadTime": 2.8
+  },
+  "Guardian R4": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.5,
+    "BaseReloadTime": 1.47
+  },
+  "Lightspeed Barrel": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.5,
+    "BaseReloadTime": 2.8
+  },
+  "Tamed Beast": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.5,
+    "BaseReloadTime": 2.8
+  },
+  "Sigvore's Proof": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.5,
+    "BaseReloadTime": 2.8
+  },
+  "Restored Relic": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.5,
+    "BaseReloadTime": 2.5
+  },
+  "Vestigial Organ": {
+    "RangedInTime": 0.3,
+    "ZoomInHoldDelayTime": 0.5,
+    "BaseReloadTime": 4.2
+  },
+  "Dogma 21": {
+    "RangedInTime": 0.35,
+    "ZoomInHoldDelayTime": 0.48,
+    "BaseReloadTime": 0
+  },
+  "Moon Fragment": {
+    "RangedInTime": 0.29,
+    "ZoomInHoldDelayTime": 0.49,
+    "BaseReloadTime": 1.8199999999999998
+  },
+  "Burning 44": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 2.0999999999999996
+  },
+  "King's Guard Lance": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 2.0999999999999996
+  },
+  "Clairvoyance": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 2.2
+  },
+  "Dimensional Bridge": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 1.95
+  },
+  "Voltia": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.45,
+    "BaseReloadTime": 2.5
+  },
+  "Key_Lepic_ArmLNC": {
+    "RangedInTime": 0.25,
+    "ZoomInHoldDelayTime": 0.34,
+    "BaseReloadTime": 2.2399999999999998
+  },
+  "Key_Freyna_DeadRoom": {
+    "RangedInTime": 0.185,
+    "ZoomInHoldDelayTime": 0.385,
+    "BaseReloadTime": 3.7
+  }
+}
